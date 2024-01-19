@@ -1,0 +1,25 @@
+void main() {
+  List<String> pazarListem = ['patates', 'soğan', 'pırasa', 'peynir', 'muz'];
+  //Liste olusturulurken List<Değişken>ListeAdı olacak şekilde kullanılır.
+
+  print('Listenin birinci elemanı=${pazarListem[0]}');
+  print('Listenin ikinci elemanı=${pazarListem[1]}');
+
+  int peynirinSirasi = pazarListem.indexOf('peynir');
+  //Listemdeki herhangi bir elemanın kaçıncı sırada olduğunu öğrenmek için .indexOf() komutu kullanılır.
+  print('Peynir $peynirinSirasi. sıradadır.');
+
+  pazarListem.add('limon');
+  //Listemizin sonuna herhangi birşey eklemek istersek .add() komutunu kullanmalıyız.
+  print(pazarListem);
+  pazarListem.add('portakal');
+  print(pazarListem);
+
+  int listeUzunlugu = pazarListem.length;
+  //Listemizin uzunluğunu öğrenmek için .length komutu kullanılır.
+  print('Pazarlistemin uzuzluğu = $listeUzunlugu');
+
+  pazarListem.insert(2, 'balık');
+  //Listemizin arasına eleman eklemek için .index() komutu kullanılmalı.
+  print(pazarListem);
+}
