@@ -1,0 +1,10 @@
+void main() 
+{
+  String ad = 'ali';
+  String departman = 'paketleme';
+  int yas = 25;
+  double kilo = 60.4;
+  bool servisKullanirmi = true;
+  List haftalikCalismaSaati = [45, 45, 40, 27, 45];
+  print('\nPersonelin Adı=$ad \nPersonelin Yaşı=$yas.\nKilosu=$kilo \nServis Kullanır mı=$servisKullanirmi \nHaftalık Çalışma Saatleri=${haftalikCalismaSaati[0]}''');
+}
