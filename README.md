@@ -1,0 +1,1 @@
+Paylaştığım kodlar txt uzantılıdır.
