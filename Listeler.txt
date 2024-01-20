@@ -20,6 +20,6 @@ void main() {
   print('Pazarlistemin uzuzluğu = $listeUzunlugu');
 
   pazarListem.insert(2, 'balık');
-  //Listemizin arasına eleman eklemek için .index() komutu kullanılmalı.
+  //Listemizin arasına eleman eklemek için .insert() komutu kullanılmalı.
   print(pazarListem);
 }
