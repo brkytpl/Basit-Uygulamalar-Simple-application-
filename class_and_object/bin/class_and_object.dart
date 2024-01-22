@@ -28,3 +28,19 @@ class Televizyon {
         'birinci televizyonun ekran bilgisi $ekranBoyutu , model bilgisi $modelAdi');
   }
 }
+// void main() {
+//   Televizyon birinciTv = Televizyon();
+//   print(birinciTv.ekranBoyutu);
+//   print(birinciTv.modelAdi);
+// }
+
+// class Televizyon {
+//   int? ekranBoyutu ;
+//   String? modelAdi ;
+
+//   Televizyon({this.ekranBoyutu=90, this.modelAdi='beko'});
+// }
+
+// void sesAc() {
+//   print('Ses açılıyor');
+// }
